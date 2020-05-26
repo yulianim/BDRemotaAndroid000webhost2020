@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        android:text="Editar/Eliminar" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="109dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="316dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Edad" />
+
+    <ImageButton
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="123dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="124dp"
+        android:text="Eliminar" />
+
+
+</RelativeLayout>
